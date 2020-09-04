@@ -27,16 +27,16 @@ p hina[:birthdate]
 p hina[:bloodtype]
 #8. 渡された文字列に「ruby」を足して返すメソッドを作成しましょう。
 def plus_ruby(str)
-  p str + "ruby"
+  str + "ruby"
 end
 
-plus_ruby("like")
-plus_ruby("yhee")
+p plus_ruby("like")
+p plus_ruby("yhee")
 
 #9. 渡された数字に1を足して返すメソッドを作成しましょう。
 def plus_one(num)
-  p num + 1
+  num + 1
 end
 
-plus_one(4)
-plus_one(10)
+p plus_one(4)
+p plus_one(10)
